@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StarterFragment">
+
+    <ImageView
+        android:id="@+id/cartify_logo"
+        android:layout_width="456dp"
+        android:layout_height="343dp"
+        android:layout_marginTop="28dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bc_cartify_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+        android:textStyle="bold"
+        android:backgroundTint="#9AEF38"
+        app:layout_constraintTop_toBottomOf="@+id/cartify_logo"
+        android:layout_margin="16dp"
+        />
+    <Button
+        android:id="@+id/btn_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="#76DA04"
+        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        android:layout_margin="16dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
